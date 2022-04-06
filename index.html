@@ -25,11 +25,16 @@
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
+      <p id="explanation">Type into each box whatever it is you need to do.<br> (Make sure you click the save Button on the right)</p>
       <p class="lead"></p>
       <p id="currentTime" class="lead"></p>
       <p id="currentDay"></p>
     </header>
 
+
+
+
+<!--Each individual Div for each time and its text area-->
     <div class="container">
 
       <div class='row time-block'>
@@ -121,12 +126,14 @@
         <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9 description" id="17pm"></textarea>
         <button class="col-xs-1 col-sm-1 col-md-1 col-lg-1 fas fa-save btn-block saveBtn" id="button17"></button>
     </div>
+    <!--Each individual Div for each time and its text area ENDS HERE-->
 
     
 
      
-    </div>
+  <footer></footer> 
 
+  <!--Sources JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="Develop/script.js"></script>
